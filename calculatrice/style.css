@@ -1,0 +1,98 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+/* test  */
+body {
+  background: rgb(176, 172, 172);
+}
+
+.container {
+  background: rgb(203, 203, 247);
+  width: 450px;
+  height: 655px;
+  margin: 40px;
+  border-radius: 20px;
+  align-content: center;
+  position: relative;
+  /* justify-content: space-around; */
+  background: linear-gradient(
+    to right,
+    #218acf 0%,
+    #94bfcb 75%,
+    #0a85cdd8 100%
+  );
+}
+h1 {
+  position: absolute;
+  height: 70px;
+  text-align: center;
+  margin: 20px;
+  width: 80%;
+  top: 10px;
+}
+.ecran {
+  position: absolute;
+  text-align: center;
+  width: 80%;
+  height: 100px;
+  text-align: center;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.74);
+  color: white;
+  top: 120px;
+  left: 40px;
+  font-size: 5rem;
+  border-radius: 10px;
+}
+
+.containerTouche {
+  position: absolute;
+  width: 360px;
+  height: 400px;
+  top: 240px;
+  display: flex;
+  /* background: rgba(54, 54, 249, 0.837);
+   */
+  background: linear-gradient(to right, #0977b8 0%, #94bfcb 29%, #144e75 100%);
+  left: 40px;
+  border-radius: 10px;
+  box-shadow: 8px 10px 15px 5px rgba(0, 0, 0, 0.53);
+}
+form {
+  display: grid;
+  padding: 20px;
+}
+.chiffre {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 80%;
+}
+
+.operateur {
+  padding: 10px;
+}
+button {
+  height: 50px;
+  width: 50px;
+  box-shadow: 8px 10px 15px 5px rgba(0, 0, 0, 0.53);
+  border-radius: 10px;
+  font-size: 2rem;
+  border: 4px groove rgba(28, 110, 164, 0.87);
+}
+
+button:hover {
+  background-color: #77bcea95;
+}
+
+button:active {
+  background-color: #54b3f274;
+}
+
+#enter {
+  width: 250px;
+}
