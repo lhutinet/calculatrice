@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "hand";
+  src: url(./font/Handjet-VariableFont_ELGR\ELSH\wght.ttf);
+}
+
 * {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: "hand", verdana;
   padding: 0;
   margin: 0 auto;
   box-sizing: border-box;
@@ -48,6 +54,11 @@ h1 {
   left: 40px;
   font-size: 5rem;
   border-radius: 10px;
+}
+
+.resultat {
+  font-family: "hand", verdana;
+  font-style: oblique;
 }
 
 .containerTouche {
